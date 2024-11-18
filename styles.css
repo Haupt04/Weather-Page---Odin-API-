@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gold;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 46px;
+    padding: 30px;
+    text-align: center;
+
+    margin: 0;
+    border: 5px solid black;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+    background-color:black;
+}
+
+#formBtn {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+   
+}
+
+#location {
+    padding: 15px;
+}
+
+.container{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Headings{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    border-bottom: 2px solid black;
+}
+
+.icon-container {
+    display: flex;
+    gap: 15px;
+}
+
+#results-tomor, #results-today {
+    width: 450px;
+    height: 450px;
+}
